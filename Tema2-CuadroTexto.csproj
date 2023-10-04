@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Tema2_CuadroTexto</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources\24.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\24.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\24.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\24.ico" />
+  </ItemGroup>
+
+</Project>
